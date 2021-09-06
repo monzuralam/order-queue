@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f9f9f9;
+    color: #000;
+    font-family: Proxima Nova,Open Sans,Gill Sans MT,Gill Sans,Corbel,Trebuchet MS,Verdana,sans-serif;;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+a{
+    color: #dab05c;
+}
+
+a:hover{
+    color: #dab05c;
+    text-decoration: none;
+}
+
+.clearfix{
+    overflow: hidden;
+    position: relative;
+}
+
+/***
+# Main css
+***/
+.subscription_queue{
+    position: relative;
+}
+
+.subscription_queue .queue-month-title{
+    margin-bottom: 8px;
+}
+
+.subscription_queue .queue-product{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgb(62 18 35 / 8%);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.subscription_queue .queue-product a .queue-product-thumb img{
+    width: 96px;
+    height: 96px;
+    margin-right: 10px;
+    float: left;
+}
+
+.queue-product-info{
+    flex: 1 1 0;
+    margin: 0px 8px;
+}
+
+.queue-product-info a{
+    color:#000;
+}
+
+.queue-product-info-brand{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.queue-product-info-title{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.queue-product-get-details{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.queue-product-get-details a{
+    color: #dab05c;
+}
+
+.queue-product-control{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items:center
+}
+
+.queue-product-control .queue-product-control-close{
+    background: transparent;
+    border:none;
+    cursor: pointer;
+}
+
+.queue-product-control .queue-product-control-close:focus{
+    border: 0;
+    outline: 0 !important;
+}
+.queue-product-control .queue-product-control-close img{
+    width: 20px;
+    height: 20px;
+}
+
+.queue-product-control .queue-product-control-move{
+    background: transparent;
+    border:none;
+    cursor: move;
+}
+
+.queue-product-control .queue-product-control-move:focus , .queue-product-control .queue-product-control-move:hover{
+    background: transparent;
+    border:none;
+    cursor: move;
+    outline: 0 !important;
+    border: 0;
+}
+
+
+
+/* *:focus {
+    outline: 0 !important;
+} */
