@@ -29,6 +29,10 @@ a:hover{
 /***
 # Main css
 ***/
+.order-section{
+    margin: 50px 0px;
+}
+
 .subscription_queue{
     position: relative;
 }
@@ -123,4 +127,13 @@ a:hover{
 
 .queue-product{
     margin-bottom: 32px;
+}
+
+.queue-year{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
 }
